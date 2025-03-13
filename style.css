@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a3d62;
+    color: #fff;
+
+}
+.container{
+    background: #40739e;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+input{
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 14px;
+    padding-left: 4px;
+    width: 182px;
+    background: #fffffff0;
+}
+button{
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #154166;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+button:hover{
+    background: #0d2f4d;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+li{
+    border-radius: 4px;
+    background: #6193bc;
+    display: flex;
+    justify-content: space-between; /* Distribui o texto e o botão */
+    margin: 6px;
+    padding: 6px;
+    font-size: 18px;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+.delete{
+    background: #154166;
+    color: #fff;
+    
+
+}
+.completed{
+    text-decoration: line-through; /* Adiciona um risco no texto */
+    color: rgb(222, 216, 216);
+}
